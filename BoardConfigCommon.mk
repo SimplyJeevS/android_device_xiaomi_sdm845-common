@@ -136,3 +136,6 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
